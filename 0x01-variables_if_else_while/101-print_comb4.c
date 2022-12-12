@@ -10,7 +10,6 @@
  *
  */
 
-
 int main(void)
 {
 	int h;
@@ -27,7 +26,7 @@ int main(void)
 				putchar(t + '0');
 				putchar(o + '0');
 
-				if (h < 789)
+				if (h < 7)
 				{
 					putchar(',');
 					putchar(' ');
