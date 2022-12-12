@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/********************************************//**
+/**
  * main - Entry point
  *
  * prints a set of numbers on the console
