@@ -1,20 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - create a  function that prints a - z 
+ * print_alphabet - create a  function that prints a - z
  *
  * Return: 0 (  :)  )
  */
 void print_alphabet(void)
 {
-	int alp;
+	char i;
 
-	for (alp='a'; alp<='z'; alp++)
-		putchar(alp);
-	putchar("\n");
-	return;
-}
-
-int main(void)
-{
-	print_alphabet();
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
 }
